@@ -4,9 +4,9 @@ Promises are great to work with! Or so does your fellow developer at work says.
 
 This article would give you to the point no bullshit tips on how to improve your relationship with the Promises.
 
-# 你可以我试试
+# 你可以
 
-Let me make the most important tip standout
+Let me make the most important tip staadfadsfadsf1突突突ndout
 
 > **Yes! you can return a Promise inside a .then**
 
