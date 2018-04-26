@@ -1,18 +1,16 @@
-
 Promises are great to work with! Or so does your fellow developer at work says.
 
 [![prom](https://res.cloudinary.com/practicaldev/image/fetch/s--zlauxVhZ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://user-images.githubusercontent.com/6966254/36483828-3e361d88-16e5-11e8-9f11-cbe99d719066.png)](https://res.cloudinary.com/practicaldev/image/fetch/s--zlauxVhZ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://user-images.githubusercontent.com/6966254/36483828-3e361d88-16e5-11e8-9f11-cbe99d719066.png)
 
 This article would give you to the point no bullshit tips on how to improve your relationship with the Promises.
 
-# 1. You can return a Promise inside a .then
+# 你可以我试试
 
 Let me make the most important tip standout
 
 > **Yes! you can return a Promise inside a .then**
 
 Also, the returned promise is automatically unwrapped in the next `.then`
-
 
 ```
 .then(r => {
@@ -24,7 +22,7 @@ Also, the returned promise is automatically unwrapped in the next `.then`
 
 ```
 
-# 2. You create a new Promise everytime you do .then
+# 2. You create a new Promise everytime you do .the啊的说法的发生的n
 
 If you are familiar with the dot chaining style of javascript you would feel at home. But for a newcomer this might now be obvious.
 
@@ -267,9 +265,9 @@ Proimise.all([prom1, prom2])
 
 😎**Protip**
 
-`Promise.all` does not provide a way to execute promises in batches(concurrency), since by design promises are executed the moment they are created. If you want to control the execution, I recommend trying out [Bluebird.map](http://bluebirdjs.com/docs/api/promise.map.html). (__Thanks [Mauro](https://dev.to/mgtitimoli) for this tip.__)
+`Promise.all` does not provide a way to execute promises in batches(concurrency), since by design promises are executed the moment they are created. If you want to control the execution, I recommend trying out [Bluebird.map](http://bluebirdjs.com/docs/api/promise.map.html). (**Thanks [Mauro](https://dev.to/mgtitimoli) for this tip.**)
 
-# 8. Do not fear the rejection _OR_
+# 8. Do not fear the rejection *OR*
 
 # Do not append redundant `.catch` after every .then
 
@@ -424,8 +422,8 @@ I recommend using the ES6 destructuring power mixed with `Promise.all` to the re
 
 Please check out my previous blog posts.
 
-*   [A toddlers guide to memory leaks in Javascript](https://dev.to/kepta/a-toddlers-guide-to-memory-leaks-in-javascript-25lf)
-*   [Understanding Default Parameters in Javascript](https://dev.to/kepta/understanding-default-parameters-in-javascript-ali)
+- [A toddlers guide to memory leaks in Javascript](https://dev.to/kepta/a-toddlers-guide-to-memory-leaks-in-javascript-25lf)
+- [Understanding Default Parameters in Javascript](https://dev.to/kepta/understanding-default-parameters-in-javascript-ali)
 
 If you ❤️ this article, please share this article to spread the words.
 
